@@ -18,11 +18,33 @@ import {
   meta,
   starbucks,
   tesla,
+  edu,
+  php,
+  nextjs,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  python,
+  java,
+  mysql,
+  firebase,
+  chat,
+  chatbot,
+  evernote,
+  jk,
+  letsnote,
+  letzchat,
+  letzread,
+  letzwatch,
+  letzwrite,
+  markv1,
+  newzio,
+  adbn,
+  quiz,
+  todo,
+  imagine,
 } from "../assets";
 
 export const navLinks = [
@@ -32,7 +54,15 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Education",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -42,19 +72,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Experience  2+ Years Working",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Students 100+ Helped",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Projects 10+ Completed",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Technologies Known 6+ ",
     icon: creator,
   },
 ];
@@ -81,8 +111,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "php",
+    icon: php,
   },
   {
     name: "Tailwind CSS",
@@ -97,74 +127,55 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
-    name: "git",
-    icon: git,
+    name: "python",
+    icon: python,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "java",
+    icon: java,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "mysql",
+    icon: mysql,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Pursuing Graduation",
+    company_name: "Grace College of Engineering",
+    icon: edu,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sept 2020 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Currently I Am Studying In Final Year, Pursuing My Bachelors In Computer Science & Engineering From Grace College Of Engineering, Tuticorin.",
+      "Which Is Under Anna University And Afflicated To AICTE(All India Council Of Technical Education).",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Higher Education",
+    company_name: "Gems Polytechnic College",
+    icon: edu,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2017 - July 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed Diploma In Computer Science & Engineering from Gems Polytechnic College, Arungabad-Bihar.",
+      "With An Total Of 85% Under AICTE(All India Council Of Technical Education).",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Secondary Education",
+    company_name: "DC Lewis Memorial School",
+    icon: edu,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2016 - May 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I Completed My Secondary Education With An Total Of 70%.",
+      "From D.C Lewis Memorial School,Renukoot Which Was Of An ICSE Standard",
     ],
   },
 ];
@@ -198,9 +209,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "LetzWatch",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to watch youtube videos for free without any ads.",
     tags: [
       {
         name: "react",
@@ -215,20 +226,228 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: letzwatch,
+    source_code_link: "https://github.com/Daniel-V-Richardson/letzwatch",
+    live_demo_link: "https://letzwatch-yt.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Imagine (An Free AI image generation and tool and sharing platform)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based platform that allows users to generate images based on prompts and can share it with the imagine community showcase. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: imagine,
+    source_code_link: "https://github.com/Daniel-V-Richardson/Imagine",
+    live_demo_link: "https://imagine-puce.vercel.app/",
+  },
+  {
+    name: "Mark v1 (Coding Assistant)",
+    description:
+      "Web-based platform that allows users to ask any type of coding or general questions and gives an accurate answer just like ChatGPT.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: markv1,
+    source_code_link: "https://github.com/Daniel-V-Richardson/Coding-Mark",
+    live_demo_link: "https://mark-daniel-v-richardson.vercel.app/",
+  },
+  {
+    name: "Let's Note (Android App)",
+    description:
+      "An Android Application which allows users to create,edit,delete and update notes realtime. The main feature of this application is that it allows users to prioritize notes and filter them out accordingly.",
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "android",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: letsnote,
+    source_code_link: "https://github.com/Daniel-V-Richardson/Let-s-Note",
+    live_demo_link: "https://github.com/Daniel-V-Richardson/Let-s-Note",
+  },
+  {
+    name: "Newzio (Simple News Application - RAPIDAPI)",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ibmdb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "RapidAPI",
+        color: "red-text-gradient",
+      },
+    ],
+    image: newzio,
+    source_code_link: "https://github.com/Daniel-V-Richardson/Newzio",
+    live_demo_link: "https://github.com/Daniel-V-Richardson/Newzio",
+  },
+  {
+    name: "LetzRead (Blog WebApp)",
+    description:
+      "Web-based platform that allows users to Create, view, update, and delete blogs with more advanced Editing Interface.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: letzread,
+    source_code_link: "https://github.com/Daniel-V-Richardson/letzread",
+    live_demo_link: "https://letzread-v1.vercel.app/",
+  },
+  {
+    name: "LetzWrite (A simple Document Writer webapp)",
+    description:
+      "Web-based platform that allows users to write documents and can also share the document throughout the internet",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: letzwrite,
+    source_code_link: "https://github.com/Daniel-V-Richardson/letzwrite",
+    live_demo_link: "https://letzwrite.vercel.app/",
+  },
+  {
+    name: "LetzChat (Universal Messenger)",
+    description:
+      "Web-based platform that allows users to Chat with other Signedin users realtime",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: letzchat,
+    source_code_link: "https://github.com/Daniel-V-Richardson/letzchat",
+    live_demo_link: "https://github.com/Daniel-V-Richardson/letzchat",
+  },
+
+  {
+    name: "JK Seafoods (MERN APP)",
+    description:
+      "Web-based Ecommerce platform that allows users to buy various seafood items through online mode and they can also track their purchase progress",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "red-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ExpressJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jk,
+    source_code_link: "https://github.com/Daniel-V-Richardson/jkseafoods",
+    live_demo_link: "https://jkseafoods.herokuapp.com/",
+  },
+  {
+    name: "LetzAnswer (React Quiz)",
+    description:
+      "A simple React Quiz App which allows users to answer questions with 5 sec time limit for each question and finally display the score.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vercel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: quiz,
+    source_code_link: "https://github.com/Daniel-V-Richardson/Quiz-App-React",
+    live_demo_link: "https://letzanswer.vercel.app/",
+  },
+  {
+    name: "ADBN News (News Classifier App)",
+    description:
+      "A simple News Classifier Application developed using Python to Provide users with latest news updates and it also supports categories and search functionality",
+    tags: [
+      {
+        name: "Python-Flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "newsapi",
         color: "green-text-gradient",
       },
       {
@@ -236,20 +455,67 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: adbn,
+    source_code_link: "https://github.com/Daniel-V-Richardson/ADBN-Newz",
+    live_demo_link: "https://github.com/Daniel-V-Richardson/ADBN-Newz",
   },
   {
-    name: "Trip Guide",
+    name: "Evernote Clone (React)",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An exact clone of Evernote, developed using React where users can login and create, update and delete their notes.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: evernote,
+    source_code_link:
+      "https://danielrichardson.netlify.app/workinprogress.html",
+    live_demo_link: "https://danielrichardson.netlify.app/workinprogress.html",
+  },
+  {
+    name: "To Do (Android App)",
+    description:
+      "A simple todo App developed using java, with this app users can create tasks,update them and mark as complete when the task is completed.",
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "xml",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: todo,
+    source_code_link:
+      "https://danielrichardson.netlify.app/workinprogress.html",
+    live_demo_link: "https://danielrichardson.netlify.app/workinprogress.html",
+  },
+  {
+    name: "Let's Chat (React Messenger)",
+    description:
+      "An online Chatting platform where users can login and chat with each other and this app allows users to create group chats and much more..",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +523,33 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: chat,
+    source_code_link: "https://github.com/Daniel-Richardson-20/Let-s-Chat",
+    live_demo_link: "https://letschatwith.netlify.app/",
+  },
+  {
+    name: "Covid 19 Chatbot",
+    description:
+      "A simple chatbot which could provide answers regarding covid-19 queries.",
+    tags: [
+      {
+        name: "Python-Flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatbot,
+    source_code_link:
+      "https://github.com/Daniel-Richardson-20/Mark-Covid-19-Chatbot",
+    live_demo_link:
+      "https://github.com/Daniel-Richardson-20/Mark-Covid-19-Chatbot",
   },
 ];
 
