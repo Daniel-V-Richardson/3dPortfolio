@@ -41,6 +41,7 @@ import {
   letzwrite,
   markv1,
   newzio,
+  oldportfolio,
   adbn,
   quiz,
   todo,
@@ -387,6 +388,28 @@ const projects = [
     image: letzchat,
     source_code_link: "https://github.com/Daniel-V-Richardson/letzchat",
     live_demo_link: "https://github.com/Daniel-V-Richardson/letzchat",
+  },
+  {
+    name: "My Old Portfolio",
+    description:
+      "Its just an Old Portfolio of mine.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: oldportfolio,
+    source_code_link: "https://github.com/Daniel-V-Richardson/danielrichardson.github.io",
+    live_demo_link: "https://daniel-v-richardson.vercel.app/",
   },
 
   {

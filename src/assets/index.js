@@ -23,6 +23,7 @@ import newzio from "./project/newzio.gif"
 import quiz from "./project/quiz.gif"
 import todo from "./project/todo.gif"
 import imagine from "./project/imagine.gif"
+import oldportfolio from  "./project/oldportfolio.gif"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -108,4 +109,5 @@ export {
   quiz,
   todo,
   imagine,
+  oldportfolio,
 };
